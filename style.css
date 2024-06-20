@@ -1,0 +1,10 @@
+* {
+    background-color: black;
+    margin: 0;
+}
+
+#home-logo {
+    display: flex;
+    align-items: center;
+    
+}
