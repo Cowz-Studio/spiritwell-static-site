@@ -1,11 +1,13 @@
 * {
     background-color: black;
-    margin: 0;
+   
 }
 
-#home-logo {
+body {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    
+    margin: 0;
     padding: 0;
+    color: whit;
 }
