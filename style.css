@@ -59,6 +59,12 @@ body {
     object-fit: cover;
     margin: 10px;
 }
+#image-quadra-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
 
 #end-summary{
     width: 300px;
@@ -69,12 +75,18 @@ body {
 }
 
 #socials{
-    display: 10pxlex;
+    display: flex;
     flex-direction: column;
-    justify-cont: space-between;
+    justify-content: space-between;
     width:300px;
     padding: 20px;
 }
+@media (min-width: 768px){
+    #socials{
+        flex-direction: row;
+    }
+}
+
     
 footer img {
     width: 393px;
@@ -85,9 +97,4 @@ footer img {
     margin: 0px;
 }
 
-@media (min-width: 768px){
-    #socials{
-        flex-direction: row;
-    }
-}
 
