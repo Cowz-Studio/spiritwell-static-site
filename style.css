@@ -75,12 +75,12 @@ p {
     height: 440px;
     object-fit: cover;
     height: auto;
+    padding:2%;
 }
 #image-quadra-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 1%;
 
 }
 
